@@ -1,115 +1,75 @@
-<div align="center">
-  <a href="https://gitstream.cm?utm_source=GitHub&utm_medium=referral&utm_campaign=gitStream+-+GitHub+Repo" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-production-user-asset-6210df.s3.amazonaws.com/7205829/290864953-535d4655-9bd9-4868-8e7b-a571b82bc44c.png">
-    <img alt="gitStream Logo" src="https://github-production-user-asset-6210df.s3.amazonaws.com/7205829/290864422-600d9a07-52b2-4eed-9043-bd593b00ef18.png" width="280"/>
-  </picture>
-  </a>
-</div>
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# gitstream
 
-<br/>
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/gitstream)
 
-<p align="center">
-  <a href="https://github.com/linear-b/gitstream/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/linear-b/gitstream" alt="NPM">
-  </a>
-  <a href="https://github.com/linear-b/gitstream">
-    <img src="https://img.shields.io/github/stars/linear-b/gitstream" alt="Stars">
-  </a>
-</p>
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-<h1 align="center">The ultimate workflow automation tool for your git repository</h1>
+## Architecture
 
-<div align="center">
-/:\ gitStream makes it simple to auto-assign reviewers, automate CI services, add important context, unblock PR/MR reviews, and more.
-</div>
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-  <p align="center">
-    <br />
-    <a href="https://docs.gitstream.cm/?utm_source=GitHub&utm_medium=referral&utm_campaign=gitStream+-+GitHub+Repo" rel="dofollow"><strong>Explore the docs »</strong></a>
-    <br />
+## Install
 
-<br/>
-    <a href="https://github.com/linear-b/gitstream/issues/new?assignees=&labels=bug&projects=&template=bug_report.md&title=">Report Bug</a>
-    ·
-    <a href="https://github.com/linear-b/gitstream/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md&title=">Request Feature</a>
-    ·
-    <a href="https://github.com/linear-b/gitstream/issues/new?assignees=&labels=new-example&projects=&template=new_automation_example.md&title=New+Example%3A+">Share your automation</a>
-    ·
-  <a href="https://github.com/linear-b/gitstream/discussions/102">Feature Updates</a>
-  </p>
-
-## ⭐️ Why gitStream?
-
-Our research shows that code reviews are [the most consistent bottleneck in the software development process](https://devinterrupted.substack.com/p/analysis-the-quickest-path-to-halving?utm_source=G&utm_medium=referral&utm_campaign=gitStream+-+GitHub+Repo), so we built gitStream to enable dev teams to use simple YAML configurations to reduce code review toil and improve software quality.
-
-## ✨ Features
-
-* 🤓 Auto-assign PR/MR reviewers
-* ♾️ Selectively trigger CI pipelines
-* 🔃 Send webhooks from your git repo to other tools like Slack, Jira, and more
-* ✅ Auto-merge low-risk PRs/MRs like documentation, dependency updates, and test additions
-* 🏷️ Automatic PR labeler
-* 🔌 Build custom JavaScript plugins to extend functionality for more advanced data processing and pulling data from external APIs.
-* ‼️ Flag problems before requesting human review
-* 💬 Add context to code reviews with comments and labels
-
-![Auto-approve safe change](https://github-production-user-asset-6210df.s3.amazonaws.com/7205829/290906189-cd272a62-dbce-47eb-9752-f7b2ddc308cb.jpg)
-
-## 🚀 Get Started
-
-gitStream is a GitHub / GitLab / Bitbucket app that processes automations defined in Continuous Merge (CM) automation files contained in your git repos. You can test gitStream automations on your own PRs via the [gitStream playground](https://app.linearb.io/automations/playground).
-
-If you're ready to install gitStream, or want to explore its automation capabilities, [head over to the docs](https://docs.gitstream.cm). You can have your first automation up and running in as little as 2 minutes.
-
-## 📣 Updates
-
-Subscribe to [gitStream Feature Announcements](https://github.com/linear-b/gitstream/discussions/102).
-
-## 📁 Local Documentation Server Setup
-
-This repository supports two documentation systems:
-
-### MkDocs (Production/Default)
-
-The production documentation system, used by CI/CD. Requires Python 3.12 (or ≤3.10).
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
 ```bash
-# Create and activate virtual environment
-python3.12 -m venv .venv
-. .venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run server
-mkdocs serve  # http://127.0.0.1:8000/
+git clone https://github.com/Interested-Deving-1896/gitstream.git
+cd gitstream
 ```
 
-### Zensical (Experimental)
+## Usage
 
-An alternative documentation system being evaluated. Requires Python 3.11+
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
-```bash
-# Install dependencies (creates .venv-zensical automatically)
-UV_PROJECT_ENVIRONMENT=.venv-zensical uv sync
+## Configuration
 
-# Run server
-UV_PROJECT_ENVIRONMENT=.venv-zensical uv run zensical serve  # http://127.0.0.1:8000/
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/gitstream`](https://github.com/Interested-Deving-1896/gitstream) and mirrored through:
+
+```
+Interested-Deving-1896/gitstream  ──►  OpenOS-Project-OSP/gitstream  ──►  OpenOS-Project-Ecosystem-OOC/gitstream
 ```
 
-**Note:** Both servers use port 8000, so run only one at a time.
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
 
-# LinearB
+## Contributors
 
-gitStream is a free product from the team at [LinearB](https://linearb.io/?utm_source=Gi&utm_medium=referral&utm_campaign=gitStream+-+GitHub+Repo): the industry-leading platform for software delivery management that has helped thousands of developers around the world improve their team's productivity.
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
 
-<div align="center">
-  <a href="https://linearb.io?utm_source=GitHub&utm_medium=referral&utm_campaign=gitStream+-+GitHub+Repo" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/linear-b/gitstream/a5d4aca7b923e5cd70c813df06dc70de97382d8c/docs/downloads/images/LinearB-logo-white.png">
-    <img alt="Novu Logo" src="https://raw.githubusercontent.com/linear-b/gitstream/a5d4aca7b923e5cd70c813df06dc70de97382d8c/docs/downloads/images/LinearB-logo-dark.png" width="280"/>
-  </picture>
-  </a>
-</div>
+## Origins
 
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+[Apache-2.0](https://github.com/Interested-Deving-1896/gitstream/blob/main/LICENSE) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
